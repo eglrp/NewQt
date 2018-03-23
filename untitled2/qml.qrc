@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Common/Button.qml</file>
+        <file>Common/Frame.qml</file>
+        <file>Common/FramePicture.qml</file>
+        <file>States/PhotoPreview.qml</file>
+        <file>States/PointCloud.qml</file>
+        <file>States/Register.qml</file>
+        <file>Common/Time.qml</file>
+        <file>Common/CamPreview.qml</file>
+        <file>Images/background.png</file>
+        <file>Images/cam.tiff</file>
+        <file>Images/camFrame.png</file>
+        <file>Images/finish.png</file>
+        <file>Images/idNumber.png</file>
+        <file>Images/info.png</file>
+        <file>Images/logo.tiff</file>
+        <file>Images/name.png</file>
+        <file>Images/PCloud.png</file>
+        <file>Images/photo.png</file>
+        <file>Images/photoFrame.png</file>
+        <file>Images/pointCloud.jpg</file>
+        <file>Images/registerFaild.png</file>
+        <file>Images/registerSucceed.png</file>
+        <file>Images/wait.png</file>
+        <file>Common/Prompter.qml</file>
+        <file>Images/choiced.tiff</file>
+        <file>Images/unchoiced.tiff</file>
+        <file>States/Start.qml</file>
+        <file>States/Password.qml</file>
+        <file>Images/pass.tiff</file>
+        <file>Images/nopass.tiff</file>
+    </qresource>
+    <qresource prefix="/image"/>
+</RCC>

@@ -1,0 +1,39 @@
+﻿生成启动时间为 2018/3/23 16:04:52。
+     1>项目“F:\ww\untitled2\untitled2.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_ImageProvider.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_ImageProvider.cpp, GeneratedFiles\Release\moc_ImageProvider.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_interface.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_interface.cpp, GeneratedFiles\Release\moc_interface.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_PointCloudProvider.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_PointCloudProvider.cpp, GeneratedFiles\Release\moc_PointCloudProvider.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_view3d.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_view3d.cpp, GeneratedFiles\Release\moc_view3d.cpp.
+     1>ClCompile:
+         D:\Program Files\VS2013\VC\bin\x86_amd64\CL.exe /c /I. /ID:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /ID:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtQuick /ID:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /ID:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtANGLE /ID:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtQml /ID:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtNetwork /ID:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /Irelease /I"D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\mkspecs\win32-msvc2013" /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_DEPRECATED_WARNINGS /D QT_NO_DEBUG /D QT_QUICK_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 main.cpp
+         main.cpp
+     1>F:\ww\SDK\OpenCV\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\ww\untitled2\logiclayer\common.h(380): warning C4189: “len”: 局部变量已初始化但不引用
+     1>f:\ww\sdk\wisesoftdevelop\include\BaseCoreBasic.h(99): warning C4190: “BaseCore_AppPath”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+     1>f:\ww\untitled2\logiclayer\CalibManager.h(50): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>f:\ww\untitled2\logiclayer\ModelManager.h(23): warning C4189: “r”: 局部变量已初始化但不引用
+     1>f:\ww\untitled2\logiclayer\RecognizeManager.h(31): warning C4172: 返回局部变量或临时变量的地址
+     1>f:\ww\untitled2\logiclayer\RecognizeManager.h(211): warning C4189: “pGetTexRGB”: 局部变量已初始化但不引用
+     1>f:\ww\untitled2\logiclayer\RecognizeManager.h(291): warning C4189: “pGetTexCord”: 局部变量已初始化但不引用
+     1>f:\ww\untitled2\logiclayer\RecognizeManager.h(292): warning C4189: “pGetTexRGB”: 局部变量已初始化但不引用
+       Link:
+         D:\Program Files\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\SDK\WiseSoftDevelop\bin\\untitled2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\qtmain.lib shell32.lib D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Quick.lib D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Gui.lib D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Qml.lib D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Network.lib D:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\SDK\WiseSoftDevelop\bin\untitled2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Release\qrc_qml.obj
+         x64\Release\moc_ImageProvider.obj
+         x64\Release\moc_interface.obj
+         x64\Release\moc_PointCloudProvider.obj
+         x64\Release\moc_view3d.obj
+         x64\Release\ImageProvider.obj
+         x64\Release\interface.obj
+         x64\Release\ArcBall.obj
+         x64\Release\LogicLayer.obj
+         x64\Release\WS3DShow.obj
+         x64\Release\main.obj
+         x64\Release\PointCloudProvider.obj
+         x64\Release\view3d.obj
+         untitled2.vcxproj -> F:\ww\untitled2\..\SDK\WiseSoftDevelop\bin\untitled2.exe
+     1>已完成生成项目“F:\ww\untitled2\untitled2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.27

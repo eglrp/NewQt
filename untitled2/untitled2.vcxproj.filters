@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="LogicLayer">
+      <UniqueIdentifier>{d7acb266-e406-4e44-bae0-d64b564db138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{4227b5c8-dd47-4d86-bf85-a7ec445a4508}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{8fe0ba0f-7572-47c1-8e00-badf45e95c3c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="QML">
+      <UniqueIdentifier>{c14952e5-1933-457e-a53a-41ca62fb4213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{841c824b-a507-4455-922b-347c6488e5e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicLayer\LogicLayer.cpp">
+      <Filter>LogicLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageProvider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageProvider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_interface.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_interface.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_view3d.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_view3d.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="view3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicLayer\WS3DShow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicLayer\ArcBall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PointCloudProvider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PointCloudProvider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\PCloud.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\cam.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\camFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\choiced.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\finish.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\idNumber.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\logo.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\name.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\nopass.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\pass.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\photo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\photoFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\pointCloud.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="Images\registerFaild.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\registerSucceed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\unchoiced.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Images\wait.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\CamPreview.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="States\ChoiceUi.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="Common\Frame.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="Common\FramePicture.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="Common\Button.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="States\Password.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="States\PhotoPreview.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="States\PointCloud.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="Common\Prompter.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="States\Start.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="States\Register.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="Common\Time.qml">
+      <Filter>QML</Filter>
+    </None>
+    <None Include="States\Calibration.qml">
+      <Filter>QML</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogicLayer\CalibManager.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\common.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\FaceDetect.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\FCUtility.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\LogicLayer.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\LogicLayerDef.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\ModelManager.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\Queue2D.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\RecognizeManager.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\RecResult2D.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\SMTransfer.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\VideoManager.h">
+      <Filter>LogicLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\WS3DShow.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicLayer\ArcBall.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ImageProvider.h">
+      <Filter>Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="interface.h">
+      <Filter>Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="view3d.h">
+      <Filter>Header</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PointCloudProvider.h">
+      <Filter>Header</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
